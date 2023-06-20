@@ -1,5 +1,6 @@
 import React from 'react';
 import Updates from '../Updates/Updates';
+import CustomerReview from '../CustomerReview/CustomerReview';
 
 const RightSide = () => {
   return (
@@ -9,8 +10,8 @@ const RightSide = () => {
                <Updates/>
              </div>
              <div className=''>
-              <h2>Customers Reviews</h2>
-              
+              <h2>Customer Reviews</h2>
+               <CustomerReview/>
              </div>
     </div>
   )
