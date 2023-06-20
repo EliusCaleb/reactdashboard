@@ -74,6 +74,7 @@
     align-items: center;
     border-radius: 1rem;
     flex-direction: column;
+    margin-bottom: 5px;
 }
 .expand > span:nth-of-type(1) {
     color: white;
